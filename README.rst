@@ -59,5 +59,5 @@ Assume that the RabbitMQ service is installed and running.
 
 Start the worker::
 
-    celery -A tasks worker --loglevel=info
+    $ celery -A tasks worker --loglevel=info
 
