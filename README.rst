@@ -1,7 +1,9 @@
-Engine.IO Examples
+SocketIO Celery Examples
 ==================
 
-This directory contains example Engine.IO applications.
+Fork and updated from ``miguelgrinberg/python-socketio/examples``.
+
+This directory contains example Socket.IO and Celery applications. 
 
 app.py
 ------
@@ -50,7 +52,8 @@ packages must be installed in the virtual environment::
 
 
     
-### On Celery worker
+On Celery worker
+----------------
 
 Assume that the RabbitMQ service is installed and running.
 
